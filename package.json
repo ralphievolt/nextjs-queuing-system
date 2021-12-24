@@ -1,5 +1,5 @@
 {
-  "name": "Emerson Queue List",
+  "name": "Emerson_Queue_List",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +8,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "jotai": "^1.4.9",
     "next": "12.0.2",
+    "primeflex": "^3.1.0",
+    "primeicons": "^4.1.0",
+    "primereact": "^7.0.0-rc.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-transition-group": "^4.4.1",
-    "primereact": "^7.0.0-rc.2",
-    "primeicons": "^4.1.0",
-    "primeflex": "^3.1.0"
+    "react-transition-group": "^4.4.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",
