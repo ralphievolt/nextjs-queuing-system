@@ -20,29 +20,19 @@ export default function Caller() {
             <div className="grid">
                 <div className="col-12 lg:col-4">
                     <div className="p-3 h-full">
-
                         <Button label="Call Now 1" className="p-3 w-full p-button-outlined text-cyan-400" onClick={() => setTeller1(teller1 + 1)} />
-
-
                     </div>
                 </div>
 
                 <div className="col-12 lg:col-4">
                     <div className="p-3 h-full">
-                        <div className="shadow-2 p-3 h-full flex flex-column" style={{ borderRadius: '6px' }}>
-
-                            <Button label="Call Now 2" className="p-3 w-full p-button-outlined text-cyan-400" onClick={() => setTeller2(teller2 + 1)} />
-
-                        </div>
+                        <Button label="Call Now 2" className="p-3 w-full p-button-outlined text-cyan-400" onClick={() => setTeller2(teller2 + 1)} />
                     </div>
                 </div>
 
                 <div className="col-12 lg:col-4">
                     <div className="p-3 h-full">
-                        <div className="shadow-2 p-3 flex flex-column" style={{ borderRadius: '6px' }}>
-
-                            <Button label="Call Now 3" className="p-3 w-full p-button-outlined text-cyan-400" onClick={() => setTeller3(teller3 + 1)} />
-                        </div>
+                        <Button label="Call Now 3" className="p-3 w-full p-button-outlined text-cyan-400" onClick={() => setTeller3(teller3 + 1)} />
                     </div>
                 </div>
             </div>

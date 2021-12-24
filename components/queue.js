@@ -1,6 +1,6 @@
 import { Button } from 'primereact/button';
 import { useAtom } from 'jotai'
-
+import { useEffect } from 'react';
 
 
 import { teller1Atom, teller2Atom, teller3Atom } from "../store"
@@ -10,6 +10,9 @@ export default function Queue() {
     const [teller1, setTeller1] = useAtom(teller1Atom);
     const [teller2, setTeller2] = useAtom(teller2Atom)
     const [teller3, setTeller3] = useAtom(teller3Atom)
+
+    useEffect(() => {
+      }, [teller1,teller2,teller3]); // Only re-run the effect if count changes
 
     return (
         <div className="surface-0">

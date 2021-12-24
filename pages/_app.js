@@ -11,9 +11,13 @@ import { teller1Atom, teller2Atom, teller3Atom } from "../store"
 function MyApp({ Component, pageProps }) {
   const { initialState } = pageProps;
   useHydrateAtoms(initialState ? [[teller1Atom, initialState]] : []);
+  useHydrateAtoms(initialState ? [[teller2Atom, initialState]] : []);
+  useHydrateAtoms(initialState ? [[teller3Atom, initialState]] : []);
   return (
     <Component {...pageProps} />
   )
 }
 
 export default MyApp
+
+
